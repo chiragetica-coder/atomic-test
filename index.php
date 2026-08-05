@@ -5,4 +5,4 @@ echo "<strong>Your Web PHP:</strong> " . PHP_VERSION . "<br>";
 
 $cliVersion = shell_exec('php -v 2>&1');
 
-echo "<strong>PHP CLI:</strong><br><pre>" . htmlspecialchars($cliVersion) . "</pre>";
+echo "<strong>Your PHP CLI:</strong><br><pre>" . htmlspecialchars($cliVersion) . "</pre>";
